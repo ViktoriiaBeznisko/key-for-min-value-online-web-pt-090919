@@ -6,6 +6,6 @@ def key_for_min_value(name_hash)
        return nil
   else
        name_hash = name_hash.sort_by {|item, value| value}
-       test[0]
+       name_hash[0]
    end
 end
